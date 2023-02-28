@@ -27,6 +27,8 @@ User need to provide:
 
 
 Libraries used:
-pandas
-numpy
-yfinance
+- pandas
+- pandas-ta
+- numpy
+- yfinance
+- matplotlib
