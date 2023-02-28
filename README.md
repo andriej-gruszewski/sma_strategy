@@ -5,7 +5,7 @@ Welcome in SMA strategy testing notebooks!
 
 You can find 2 files in this repo:
 
-SMA_strategy.ipynb - gives you evaluation of SMA crossover strategy with entry variables decided by user. As the final ouput, user gets information about how his strategy behaved in given time period.
+SMA_strategy.ipynb - gives you evaluation of SMA crossover strategy with entry variables decided by user. As the final ouput, user gets information about how his strategy performed in given time period, in terms of percentage change.
 User need to provide:
 - ticker
 - start of backtetsing period
@@ -18,9 +18,15 @@ User need to provide:
 
 
 
-ticker_list_ml.ipynb - model that gives user best possible configuration of SMA fast and slow indicators for best performance on choosen tickers.
+ticker_list_ml.ipynb - model that gives user best possible configuration of SMA fast and slow indicators for best performance, in terms of percentage change, on choosen tickers.
 User need to provide:
 - ticker list
 - start of backtetsing period
 - end of backtesting period
 - ticker timeframe interval
+
+
+Libraries used:
+pandas
+numpy
+yfinance
